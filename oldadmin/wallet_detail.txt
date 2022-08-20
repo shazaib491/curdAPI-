@@ -1,0 +1,67 @@
+============================================================================
+Payments Module Required Development
+============================================================================
+
+1. Wallet detail Module
+=======================
+View URL: <https://www.alsaree3panel.com/admin/wallet_detail>
+
+search input
+1.)user
+2.)Provider
+3.)Store
+4.)comment
+
+
+Sorting
+1.)ID
+2.)user
+3.)Provider
+4.)Store
+5.)comment
+
+date filter
+1.)start date to  2.)end date
+
+button
+1.)apply button
+2.)export to excel button
+
+Wallet Detail
+1.)ID
+2.)Type
+3.)Email
+4.)Date
+5.)Country
+6.)Currency
+7.)Wallet Amount
+8.)Add/Cut
+9.)Wallet
+10.)From Where?
+
+    pagination 
+=======================
+    1.)button number search
+    2.)no record per page found 
+
+https://www.alsaree3panel.com/admin/get_wallet_detail ->Gives Error
+TypeError: Cannot read property 'formatted' of undefined
+   at exports.get_wallet_detail (/var/www/html/admin_and_store_panel/app/admin_controllers/wallet.js:280:55)
+   at Layer.handle [as handle_request] (/var/www/html/admin_and_store_panel/node_modules/express/lib/router/layer.js:95:5)
+   at next (/var/www/html/admin_and_store_panel/node_modules/express/lib/router/route.js:131:13)
+   at Route.dispatch (/var/www/html/admin_and_store_panel/node_modules/express/lib/router/route.js:112:3)
+   at Layer.handle [as handle_request] (/var/www/html/admin_and_store_panel/node_modules/express/lib/router/layer.js:95:5)
+   at /var/www/html/admin_and_store_panel/node_modules/express/lib/router/index.js:277:22
+   at Function.process_params (/var/www/html/admin_and_store_panel/node_modules/express/lib/router/index.js:330:12)
+   at next (/var/www/html/admin_and_store_panel/node_modules/express/lib/router/index.js:271:10)
+   at /var/www/html/admin_and_store_panel/node_modules/async/dist/async.js:356:16
+   at iteratorCallback (/var/www/html/admin_and_store_panel/node_modules/async/dist/async.js:936:13)
+   at /var/www/html/admin_and_store_panel/node_modules/async/dist/async.js:840:16
+   at SendStream.error (/var/www/html/admin_and_store_panel/node_modules/serve-static/index.js:121:7)
+   at emitOne (events.js:116:13)
+   at SendStream.emit (events.js:211:7)
+   at SendStream.error (/var/www/html/admin_and_store_panel/node_modules/serve-static/node_modules/send/index.js:275:17)
+   at SendStream.onStatError (/var/www/html/admin_and_store_panel/node_modules/serve-static/node_modules/send/index.js:392:12)
+   at next (/var/www/html/admin_and_store_panel/node_modules/serve-static/node_modules/send/index.js:683:16)
+   at onstat (/var/www/html/admin_and_store_panel/node_modules/serve-static/node_modules/send/index.js:672:14)
+   at FSReqWrap.oncomplete (fs.js:152:21)

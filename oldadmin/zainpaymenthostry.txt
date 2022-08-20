@@ -1,0 +1,37 @@
+============================================================================
+Payments Module Required Development
+============================================================================
+
+3. Zain Payment History
+========================
+View URL: <https://www.alsaree3panel.com/admin/zain_payment_history>
+
+
+date filter
+1.)start date to  2.)end date
+
+
+search input
+1.)Driver ID
+
+
+Sorting
+1.)Driver ID
+
+button
+1.)export to excel button
+2.)apply button
+
+History Table field
+1.)Date
+2.)Time
+3.)Driver ID
+4.)Amount
+5.)Success	
+6.)Error
+7.)Type
+
+    pagination 
+=======================
+    1.)button number search
+    2.)no record per page found 

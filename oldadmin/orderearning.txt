@@ -1,0 +1,125 @@
+============================================================================
+Payments Module Required Development
+============================================================================
+
+2. Order Earning Module
+=======================
+View URL: <https://www.alsaree3panel.com/admin/order_earning>
+
+search input
+1.)user
+2.)Invoice Number
+2.)Providers
+4.)Store
+
+Sorting
+1.)ID
+2.)user 
+3.)Providers
+4.)Store
+
+
+date filter
+1.)start date to  2.)end date
+
+limit 
+1.)20
+2.)50
+3.)100
+4.)200
+5.)300
+6.)400
+7.)500
+
+button
+1.)export to excel button
+2.)apply button
+
+Admin Earn
+1.)Total Completed Orders	                    2.)Admin Earn
+3.)Total Order Amount	                        4.)Pay To Store
+
+
+Order Earning module table fields
+1.)id
+2.)invoce number
+3.)Completed At	
+4.)User
+5.)Provider
+6.)Store	
+7.)Total
+8.)Admin Earning	
+9.)Pay Store	
+10.)ACTION
+   ->1.)view detail
+   Request URL: https://www.alsaree3panel.com/admin/get_order_earning
+        ->header section
+            1.)invoice
+            2.)current date
+            3.)code
+        ->card detail
+            -> user card detail
+                1.)name
+                2.)email
+                3.)phone
+            ->delivery user detail
+                1.)name
+                2.)phone
+                3.)address
+            ->delivery man detail
+                1.)name
+                2.)email
+                3.)phone
+            ->store detail
+                1.)name
+                2.)email
+                3.)phone
+                4.)address
+            ->order status -> status not compeleted
+                1.)distance
+                2.)totalTime
+                3.)totalTime
+                Created At		Store Accepted At		Preparing Order At		Order Ready At		Completed At
+            ->Delivery Fees
+                1.)service price
+                2.)tax price
+                3.)delivery price
+                4.)total delivery price
+            ->CART
+            	1.)QUANTITY
+                2.)PRICE
+                3.)TOTAL
+            ->ORDER FEES
+                1.)Cart Price
+                2.)Tax Price
+                3.)Order Price
+                4.)prmo bonus
+                5.)total order price
+            ->total 
+                1.)wallet Payments
+                2.)case Payments
+                3.)other payments
+                    ->1)total amount
+            ->Store Earn
+                1.)Store Have Service Payment
+                2.)Store Have Order Payment
+                3.)Store Profit
+                4.)Pay To Store
+                5.)Store Set Wallet
+            ->DELIVERYMAN EARN
+                1.)Have Service Amount
+                2.)Paid Order Payment
+                3.)Deliveryman Profit
+                4.)Pay To Provider
+                5.)Provider Set Wallet
+            ->ADMIN EARN
+                1.)Admin Profit On Store
+                2.)Admin Profit On Delivery
+            ->ADMIN EARN(In Admin Currency)
+                1.)Convert Rate
+                2.)Admin Profit On Store
+                3.)Admin Profit On Delivery
+    pagination 
+=======================
+    1.)button number search
+    2.)no record per page found 

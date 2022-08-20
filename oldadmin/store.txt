@@ -1,0 +1,47 @@
+============================================================================
+Payments Module Required Development
+============================================================================
+
+1. Store Module
+=======================
+View URL: <https://www.alsaree3panel.com/admin/store_wallet>
+
+search input
+1.)Name
+2.)Email
+
+
+Sorting
+1.)ID
+2.)Name
+3.)Email
+
+button
+1.)apply button
+2.)export to excel button
+
+Store Wallet field
+
+1.)ID
+2.)Name
+3.)Email
+4.)Wallet
+5.)ACTION   
+    ->Deduct Wallet -> 1.)amount and submit button
+    ->clear Dues -> popup for clear dues
+    ->View History->
+        1.)Order ID
+        2.)Invoice Number
+        3.)Username
+        4.)Collected from user
+        5.)Pay to restaurant
+        6.)Credit wallet
+        7.)	Date and Time
+        pagination 
+    =======================
+        1.)button number search
+        2.)no record per page found 
+    pagination 
+=======================
+    1.)button number search
+    2.)no record per page found 

@@ -1,0 +1,27 @@
+============================================================================
+Document and Promo Required Development
+============================================================================
+
+1. Brand Module
+=======================
+View URL: <https://www.alsaree3panel.com/admin/brands>
+
+Brand Table field
+1.)Image
+2.)Sequence Number
+3.)Name
+4.)Stores
+5.)Visible
+6.)ACTION
+    ->Edit
+        ->Country Name
+        Brand Data
+        Country Name
+        City Name
+        Name
+        English Name
+        Sequence Number
+        Visible
+        Image
+    --->Available Stores   checkbox option
+    ->Delete

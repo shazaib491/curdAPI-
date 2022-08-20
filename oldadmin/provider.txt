@@ -1,0 +1,45 @@
+============================================================================
+Payments Module Required Development
+============================================================================
+
+3. Provider Earning
+========================
+View URL: <https://www.alsaree3panel.com/admin/provider_earning>
+
+
+date filter
+1.)start date to  2.)end date
+
+
+search input
+1.)Email
+2.)Name
+
+
+button
+1.)export to excel button
+2.)apply button
+
+Provider Earning Table fields
+1.)ID	
+2.)Driver Name
+3.)Driver Email
+4.)Total Orders
+5.)Type of driver
+6.)Total collected amount
+7.)Total Admin profit
+8.)Total driver earn
+9.)Admin collect from driver
+10.)Already collected
+11.)Pending amount
+12.)ACTION
+    >1.)view detail
+        Modal->
+        field
+            Amount
+            Save Button
+        
+    pagination 
+=======================
+    1.)button number search
+    2.)no record per page found 

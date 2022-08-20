@@ -1,0 +1,100 @@
+============================================================================
+Payments Module Required Development
+============================================================================
+
+1. Earning Module
+=======================
+View URL: <https://www.alsaree3panel.com/admin/earnings>
+
+search input
+1.)Invoice Number
+2.)orderId
+3.)user
+4.)Store
+
+date filter
+1.)start date to  2.)end date
+
+button
+1.)apply button
+2.)export to excel button
+
+earning module table fields
+1.)orderID
+2.)invoce number
+3.)user
+4.)storeID
+5.)store
+6.)group
+7.)hubId
+8.)status
+9.)amount
+10.)delivert At
+11.)promo code
+12.)action
+    ->1.)view detail
+        ->header section
+            1.)invoice
+            2.)current date
+            3.)code
+        ->card detail
+            -> user card detail
+                1.)name
+                2.)email
+                3.)phone
+            ->delivery user detail
+                1.)name
+                2.)phone
+                3.)address
+            ->delivery man detail
+                1.)name
+                2.)email
+                3.)phone
+            ->store detail
+                1.)name
+                2.)email
+                3.)phone
+                4.)address
+            ->order status -> status compeleted
+                1.)distance
+                2.)totalTime
+                3.)totalTime
+            ->Delivery Fees
+                1.)service price
+                2.)tax price
+                3.)delivery price
+                4.)total delivery price
+            ->ORDER FEES
+                1.)Cart Price
+                2.)Tax Price
+                3.)Order Price
+                4.)prmo bonus
+                5.)total order price
+            ->total 
+                1.)wallet Payments
+                2.)case Payments
+                3.)other payments
+                    ->1)total amount
+            ->Store Earn
+                1.)Store Have Service Payment
+                2.)Store Have Order Payment
+                3.)Store Profit
+                4.)Pay To Store
+                5.)Store Set Wallet
+            ->DELIVERYMAN EARN
+                1.)Have Service Amount
+                2.)Paid Order Payment
+                3.)Deliveryman Profit
+                4.)Pay To Provider
+                5.)Provider Set Wallet
+            ->ADMIN EARN
+                1.)Admin Profit On Store
+                2.)Admin Profit On Delivery
+            ->ADMIN EARN(In Admin Currency)
+                1.)Convert Rate
+                2.)Admin Profit On Store
+                3.)Admin Profit On Delivery
+    pagination 
+=======================
+    1.)button number search
+    2.)no record per page found 
